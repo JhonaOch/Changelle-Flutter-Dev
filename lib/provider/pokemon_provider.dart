@@ -42,10 +42,10 @@ class PokemonProvider extends ChangeNotifier {
     getPokemons();
   }
 
+  
+
   List<String> selecion(String datos, index) {
-    
-   
-    _validator = true;
+_validator = true;
     List<String> abi = _abilityname..add(datos);
     final remove = [
       ...{...abi}
